@@ -1,0 +1,225 @@
+@import "cfg.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+main {
+    font-family: Roboto;
+    position: relative;
+}
+
+.start{
+    background: linear-gradient(30deg, #1767e8 55%, #fff 45%);
+    height: 100vh;
+    p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    :nth-child(2) {
+        position: absolute;
+        top: 500px;
+        left: 40%;
+    }
+    :nth-child(3) {
+        position: absolute;
+        top: 540px;
+        left: 45%;
+    }
+}
+
+.triangle {
+  &-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    img {
+        height: 400px;
+        
+    }
+}
+  &-down{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    img {
+        height: 400px;
+        
+    }
+}
+}
+.logo {
+  &-rus{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    img {
+        height: 400px;
+    }
+}
+  &-eng{
+    position: absolute;
+    top: 530px;
+    left: 40px;
+    img {
+        height: 400px;
+    }
+}
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  &-logo{
+    
+    img {
+        margin: 200px 0 48px 400px;
+        width: 800px;
+    }
+
+}
+}
+.text {
+  &-column{
+    display: flex;
+    gap: 32px;
+    padding: 0 400px;
+    p {
+        font-weight: 500;
+        font-size: 32px;
+    }
+}
+}
+.third {
+    margin: 400px 0 200px 0;
+    h1 {
+        text-align: left;
+        margin: 0 0 48px 30%;
+        color: #1767e8;
+        font-size: 48px;
+        font-weight: 700;
+    }
+  &-columns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+}
+  &-info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+  &-info-elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1767e8;
+    border-radius: 30px;
+    height: 250px;
+    width: 400px;
+    padding: 0 0 0 30px;
+    color: #1767e8;
+    :nth-child(1) {
+        font-size: 72px;
+        font-weight: 700;
+    }
+    :nth-child(2) {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    }
+
+  &-list{
+    font-size: 32px;
+    li {
+        margin: 10px 0;
+        list-style: disc;
+    }
+}
+}
+.fourth{
+    text-align: center;
+    video {
+        width: 70vw;
+        
+        
+    }
+}
+.fifth {
+    padding: 0 400px;
+    margin: 400px 0 0 0;
+    p {
+        color: #1767e8;
+        font-size: 36px;
+        margin: 50px 0;
+    }
+  &-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #1767e8;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #1767e8;
+    width: 400px;
+    height: 150px;
+    word-wrap: break-word;
+    border-radius: 30px;
+}
+}
+.sixth {
+    margin: 400px 400px;
+    h1 {
+        text-align: left;
+        margin: 0 48px 0 30%;
+        color: #1767e8;
+        font-size: 48px;
+        font-weight: 700;
+    }
+  &-btns{
+    margin: 150px 0;
+    display: flex;
+    gap: 32px;
+}
+  &-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #1767e8;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #1767e8;
+    width: 100%;
+    height: 150px;
+    word-wrap: break-word;
+    border-radius: 30px;
+}
+}
+.seven {
+    margin: 400px;
+    h1 {
+        text-align: left;
+        margin: 0 48px 0 30%;
+        color: #1767e8;
+        font-size: 48px;
+        font-weight: 700;
+    }
+  &-logos{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 32px;
+     padding: 120px 0;
+     img {
+        width: 30%;
+
+     }
+     :nth-child(5) {
+        height: fit-content;
+     }
+}
+}
