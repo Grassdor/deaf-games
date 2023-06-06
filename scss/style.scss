@@ -38,22 +38,24 @@ main {
     
     .triangle {
       &-up{
-        display: none;
+        display: block;
         position: fixed;
         top: 0;
         left: 0;
         z-index: 2;
+        transition: all 1s;
         img {
             height: 20vh;
             
         }
     }
       &-down{
-        display: none;
+        display: block;
         position: fixed;
         bottom: 0;
         right: 0;
         z-index: 2;
+        transition: all 1s;
         img {
             height: 20vh;
             
@@ -281,6 +283,7 @@ main {
             top: 0;
             left: 0;
             z-index: 2;
+            transition: all 1s;
             img {
                 height: 10vh;
                 
@@ -292,6 +295,7 @@ main {
             bottom: 0;
             right: 0;
             z-index: 2;
+            transition: all 1s;
             img {
                 height: 10vh;
                 
@@ -520,6 +524,7 @@ main {
     top: 0;
     left: 0;
     z-index: 2;
+    transition: all 1s;
     img {
         height: 20vh;
         
@@ -530,6 +535,7 @@ main {
     bottom: 0;
     right: 0;
     z-index: 2;
+    transition: all 1s;
     img {
         height: 20vh;
         

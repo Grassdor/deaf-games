@@ -20,3 +20,17 @@ $(function() {
     });
     
   });
+
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos == 0) {
+    document.getElementById("triup").style.left = "0";
+    document.getElementById("tridn").style.right = "0";
+  } else {
+    document.getElementById("triup").style.left = "-500px";
+    document.getElementById("tridn").style.right = "-500px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
